@@ -1,0 +1,18 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/OneDrive/文档/Superion_improve/tree_mutation/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/MinGW/bin/mingw32-make.exe cmTC_f57a2/fast && D:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f57a2.dir\build.make CMakeFiles/cmTC_f57a2.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/OneDrive/文档/Superion_improve/tree_mutation/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f57a2.dir/testCCompiler.c.obj
+D:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_f57a2.dir\testCCompiler.c.obj   -c D:\OneDrive\鏂囨。\Superion_improve\tree_mutation\CMakeFiles\CMakeTmp\testCCompiler.c
+gcc.exe: error: D:\OneDrive\鏂囨。\Superion_improve\tree_mutation\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+CMakeFiles\cmTC_f57a2.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_f57a2.dir/testCCompiler.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_f57a2.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/OneDrive/文档/Superion_improve/tree_mutation/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_f57a2/fast' failed
+mingw32-make.exe: *** [cmTC_f57a2/fast] Error 2
+
+
+

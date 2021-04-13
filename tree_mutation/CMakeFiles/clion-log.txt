@@ -1,0 +1,49 @@
+"D:\Clion\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE= -G "CodeBlocks - MinGW Makefiles" D:\OneDrive\文档\Superion_improve\tree_mutation
+CMake Warning at CMakeLists.txt:7 (message):
+  Build type not set, falling back to Release mode.
+
+   To specify build type use:
+   -DCMAKE_BUILD_TYPE=<mode> where <mode> is Debug or Release.
+
+
+-- Building without demo. To enable demo build use: -DWITH_DEMO=True
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
+-- Check for working C compiler: D:/MinGW/bin/gcc.exe
+-- Check for working C compiler: D:/MinGW/bin/gcc.exe -- broken
+CMake Error at D:/Clion/CLion 2019.2.5/bin/cmake/win/share/cmake-3.15/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "D:/MinGW/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: D:/OneDrive/鏂囨。/Superion_improve/tree_mutation/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):D:/MinGW/bin/mingw32-make.exe cmTC_f57a2/fast && D:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f57a2.dir\build.make CMakeFiles/cmTC_f57a2.dir/build
+    mingw32-make.exe[1]: Entering directory 'D:/OneDrive/鏂囨。/Superion_improve/tree_mutation/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_f57a2.dir/testCCompiler.c.obj
+    D:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_f57a2.dir\testCCompiler.c.obj   -c D:\OneDrive\閺傚洦銆俓Superion_improve\tree_mutation\CMakeFiles\CMakeTmp\testCCompiler.c
+    gcc.exe: error: D:\OneDrive\閺傚洦銆俓Superion_improve\tree_mutation\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+    gcc.exe: fatal error: no input files
+    compilation terminated.
+    CMakeFiles\cmTC_f57a2.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_f57a2.dir/testCCompiler.c.obj' failed
+    mingw32-make.exe[1]: *** [CMakeFiles/cmTC_f57a2.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'D:/OneDrive/鏂囨。/Superion_improve/tree_mutation/CMakeFiles/CMakeTmp'
+    Makefile:120: recipe for target 'cmTC_f57a2/fast' failed
+    mingw32-make.exe: *** [cmTC_f57a2/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:24 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/OneDrive/鏂囨。/Superion_improve/tree_mutation/CMakeFiles/CMakeOutput.log".
+See also "D:/OneDrive/鏂囨。/Superion_improve/tree_mutation/CMakeFiles/CMakeError.log".
