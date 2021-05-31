@@ -60,7 +60,7 @@ for f in *.cpp; do g++ -I ../runtime/src/ -c $f -fPIC -std=c++11; done
 g++ -shared -std=c++11 *.o ../dist/libantlr4-runtime.a  -o libTreeMutation.so
 ```
 
-### 4. Build AFL
+#### 4. Build AFL
 
 Compile afl-clang-fast and afl-clang-fast++, which are used to instrument fuzzing targets.
 
